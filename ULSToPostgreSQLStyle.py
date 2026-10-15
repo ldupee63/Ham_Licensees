@@ -4,7 +4,7 @@ import unicodedata
 def make_postgresql(sqlstatement, type) -> str:
     '''
         This function will take the FCC format file, designed for TSQL
-        and make the necessry cnages to make it PostgreSQL friendly
+        and convert it to PostgreSQL format. 
     '''
     
     #fix reserved/protected words
